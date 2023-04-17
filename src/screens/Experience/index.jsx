@@ -1,12 +1,12 @@
 import { HStack, VStack } from "native-base";
-import Title from "../Title";
-import Card from "../../common/ Card";
+import Title from "../../components/Title";
+import Card from "../../components/Card";
 
 export default function Experience() {
   return (
-    <VStack mt={1} p={24} alignItems="center">
+    <VStack alignItems="center">
       <Title>Experiência Profissional</Title>
-      <HStack flexWrap="wrap" justifyContent="center">
+      <HStack pl={32} pr={32} flexWrap="wrap" justifyContent="center">
         <Card item1="Empresa" item2="Cargo" item3="Período" />
         <Card item1="Empresa" item2="Cargo" item3="Período" />
         <Card item1="Empresa" item2="Cargo" item3="Período" />

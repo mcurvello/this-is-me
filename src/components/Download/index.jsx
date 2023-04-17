@@ -1,4 +1,5 @@
-import { Box, Button, Text } from "native-base";
+import { Box } from "native-base";
+import CustomButton from "../CustomButton";
 
 export default function Download() {
   return (
@@ -8,14 +9,7 @@ export default function Download() {
       alignItems="center"
       justifyContent="center"
     >
-      <Button
-        backgroundColor="white"
-        borderColor="black"
-        borderWidth="1"
-        w="64"
-      >
-        <Text fontFamily="caption">Baixar Currículo</Text>
-      </Button>
+      <CustomButton>Baixar Currículo</CustomButton>
     </Box>
   );
 }

@@ -14,7 +14,7 @@ export default function Card({
       backgroundColor={backgroundColor || "gray.900"}
       w={236}
       h={236}
-      m={10}
+      m={8}
       pl={8}
     >
       <Text fontFamily="caption" color={fontColor || "white"}>

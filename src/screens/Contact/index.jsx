@@ -1,15 +1,15 @@
 import { HStack, VStack } from "native-base";
-import Title from "../Title";
-import Separator from "../../common/Divider";
-import ContactCard from "../../common/ContactCard";
+import Title from "../../components/Title";
+import Separator from "../../components/Divider";
 
 import Address from "../../assets/images/address.png";
 import Mail from "../../assets/images/mail.png";
 import WhatsApp from "../../assets/images/whatsapp.png";
+import ContactCard from "../../components/ContactCard";
 
 export default function Contact() {
   return (
-    <VStack pr={24} pl={24} mt={24}>
+    <VStack pr={24} pl={24}>
       <VStack alignItems="flex-end">
         <Title>Contato</Title>
         <Separator w="300" mb={10} />

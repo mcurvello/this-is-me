@@ -1,7 +1,7 @@
 import { HStack, VStack } from "native-base";
 import Title from "../Title";
-import Separator from "../../common/Divider";
-import ProgressCard from "../../common/ProgressCard";
+import Separator from "../Divider";
+import ProgressCard from "../ProgressCard";
 
 export default function Skills() {
   return (
