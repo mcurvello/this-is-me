@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Projeto de Aplicação Web Pessoal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto consiste em uma aplicação web para apresentação pessoal, desenvolvido em React, utilizando a biblioteca NativeBase para estilização dos componentes com CSS.
 
-## Available Scripts
+A aplicação tem como objetivo apresentar informações pessoais sobre um usuário, incluindo seu nome, endereço, formação, experiência profissional.
 
-In the project directory, you can run:
+## Funcionalidades
 
-### `npm start`
+- **Sobre mim**: texto lorem ipsum e botão com o CEP para visualizar endereço completo.
+- **Contato**: E-mail, telefone e localidade do usuário
+- **Experiência profissional**: cards para informações das experiências profissionais.
+- **Formação**: cards para informações da formação acadêmica.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Como executar o projeto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Para executar o projeto, siga as instruções abaixo:
 
-### `npm test`
+1. Clone o projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+  git clone https://github.com/mcurvello/this-is-me
+```
 
-### `npm run build`
+2. Entre no diretório do projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+  cd this-is-me
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Instale as dependências
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  npm install
+```
 
-### `npm run eject`
+4. Inicie o servidor
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+  npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Abra seu navegador e acesse http://localhost:3000.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Tecnologias utilizadas
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- React
+- NativeBase
+- CSS
+- JavaScript
+- API do ViaCEP
 
-## Learn More
+## Considerações finais
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto foi desenvolvido como parte da atividade do capítulo 11 da Fase 2, do curso de Sistemas para Internet da FIAP.
